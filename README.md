@@ -1,6 +1,6 @@
 # Command Line: Zero to Hero
 
-A comprehensive 2-day workshop to take you from CLI beginner to confident command-line user. This hands-on course combines tutorials with practical exercises to build real-world skills.
+A comprehensive workshop to take you from CLI beginner to confident command-line user. This hands-on course combines tutorials with practical exercises to build real-world skills. It assumes you have access to a Unix-based CLI environment. This course works on Linux and macOS natively, or on Windows with WSL (Windows Subsystem for Linux).
 
 ## Learning Objectives
 
@@ -14,8 +14,6 @@ By the end of this course, you will be able to:
 - Chain commands together using pipes and redirects
 
 ## Course Structure
-
-### Day 1: Foundations (6-7 hours)
 
 **Module 01: Introduction to the CLI** (30 min)
 - What is the command line and why use it?
@@ -53,8 +51,6 @@ By the end of this course, you will be able to:
 - Downloading files (`wget`, `curl`)
 - Copying files to/from remote servers (`scp`, `rsync`)
 - Best practices for large file transfers
-
-### Day 2: Intermediate to Advanced (6-7 hours)
 
 **Module 08: Environment Management with Mamba** (1.5 hours)
 - Installing Miniforge/Mamba
@@ -113,8 +109,8 @@ By the end of this course, you will be able to:
 5. Take breaks! Learning the CLI can be intense
 
 ### Time Commitment
-- **Day 1**: 6-7 hours (foundations)
-- **Day 2**: 6-7 hours (intermediate to advanced)
+- **Foundations**: 6-7 hours
+- **Intermediate - advanced**: 6-7 hours
 - **Total**: ~14 hours of focused learning
 
 ## Quick Reference

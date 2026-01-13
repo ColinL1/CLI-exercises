@@ -4,7 +4,7 @@ This course contains progressive modules. Each module builds on previous ones, s
 
 ## All Modules
 
-### Day 1: Foundations
+### Foundations
 
 | Module | Topic | Duration | Difficulty |
 |--------|-------|----------|------------|
@@ -20,7 +20,7 @@ This course contains progressive modules. Each module builds on previous ones, s
 
 ---
 
-### Day 2: Advanced Skills
+### Advanced Skills
 
 | Module | Topic | Duration | Difficulty |
 |--------|-------|----------|------------|
