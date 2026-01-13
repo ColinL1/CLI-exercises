@@ -1,0 +1,53 @@
+# Practice and temporary files
+*-practice/
+cli-practice/
+file-ops-practice/
+text-practice/
+perm-practice/
+transfer-practice/
+backup/
+backups/
+
+# Student work
+solutions/*.sh
+my-project/
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+script.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+.directory
+
+# Editor specific
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# Data files (students might create)
+*.csv
+*.xlsx
+*.db
+
+# Conda
+.conda/
