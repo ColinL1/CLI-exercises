@@ -1,6 +1,6 @@
 # Course Completion & Next Steps
 
-**Congratulations on completing CLI Zero to Hero!**
+## Congratulations on completing CLI tutorial!
 
 You've mastered the command line in just 2 days. Here's what you've accomplished and where to go from here.
 
