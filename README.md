@@ -132,14 +132,6 @@ modules/
 └── 11-real-world-projects/
 ```
 
-## Tips for Success
-
-1. **Type everything yourself** - Don't copy-paste. Muscle memory matters!
-2. **Make mistakes** - They're the best teachers
-3. **Use the man pages** - `man <command>` is your friend
-4. **Practice daily** - Even 15 minutes makes a difference
-5. **Customize your environment** - Make it yours!
-
 ## Getting Help
 
 - Each module has common troubleshooting tips
