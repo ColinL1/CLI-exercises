@@ -7,6 +7,7 @@ perm-practice/
 transfer-practice/
 backup/
 backups/
+ignore
 
 # Student work
 solutions/*.sh
