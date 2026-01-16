@@ -1,4 +1,4 @@
-# Module 02: Navigation & File System
+# Module 06: SSH & Remote Access
 
 ---
 
