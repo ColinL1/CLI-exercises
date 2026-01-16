@@ -7,6 +7,7 @@ You've mastered the command line in just 2 days. Here's what you've accomplished
 ## What You've Learned
 
 ### Day 1: Foundations
+
 - CLI basics and terminology
 - File system navigation
 - File operations (create, copy, move, delete)
@@ -16,6 +17,7 @@ You've mastered the command line in just 2 days. Here's what you've accomplished
 - File transfer methods
 
 ### Day 2: Advanced Skills
+
 - Environment management with Mamba
 - Bash scripting fundamentals
 - Advanced text processing
@@ -24,6 +26,7 @@ You've mastered the command line in just 2 days. Here's what you've accomplished
 ## Your New Skills
 
 You can now:
+
 - Navigate any Unix-like system with confidence
 - Create and edit files without a GUI
 - Connect to remote servers securely
@@ -35,16 +38,73 @@ You can now:
 
 ## Skills Assessment
 
-Rate yourself (1-5) on these skills:
+Rate yourself (1-5) on these skills:åå
 
-```
-Navigation & File Management:     [ ] [ ] [ ] [ ] [ ]
-Text Editing & Processing:        [ ] [ ] [ ] [ ] [ ]
-SSH & Remote Access:              [ ] [ ] [ ] [ ] [ ]
-Environment Management:           [ ] [ ] [ ] [ ] [ ]
-Bash Scripting:                   [ ] [ ] [ ] [ ] [ ]
-Command Chaining & Pipes:         [ ] [ ] [ ] [ ] [ ]
-```
+<style>
+table { width: 100%; border-collapse: collapse; }
+td, th { padding: 8px; text-align: center; border: 1px solid #ddd; }
+td:first-child { text-align: left; }
+input[type="radio"] { cursor: pointer; transform: scale(1.2); }
+</style>
+
+<table>
+  <tr>
+    <th>Skill</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+  </tr>
+  <tr>
+    <td>Navigation & File Management</td>
+    <td><input type="radio" name="skill1" value="1"></td>
+    <td><input type="radio" name="skill1" value="2"></td>
+    <td><input type="radio" name="skill1" value="3"></td>
+    <td><input type="radio" name="skill1" value="4"></td>
+    <td><input type="radio" name="skill1" value="5"></td>
+  </tr>
+  <tr>
+    <td>Text Editing & Processing</td>
+    <td><input type="radio" name="skill2" value="1"></td>
+    <td><input type="radio" name="skill2" value="2"></td>
+    <td><input type="radio" name="skill2" value="3"></td>
+    <td><input type="radio" name="skill2" value="4"></td>
+    <td><input type="radio" name="skill2" value="5"></td>
+  </tr>
+  <tr>
+    <td>SSH & Remote Access</td>
+    <td><input type="radio" name="skill3" value="1"></td>
+    <td><input type="radio" name="skill3" value="2"></td>
+    <td><input type="radio" name="skill3" value="3"></td>
+    <td><input type="radio" name="skill3" value="4"></td>
+    <td><input type="radio" name="skill3" value="5"></td>
+  </tr>
+  <tr>
+    <td>Environment Management</td>
+    <td><input type="radio" name="skill4" value="1"></td>
+    <td><input type="radio" name="skill4" value="2"></td>
+    <td><input type="radio" name="skill4" value="3"></td>
+    <td><input type="radio" name="skill4" value="4"></td>
+    <td><input type="radio" name="skill4" value="5"></td>
+  </tr>
+  <tr>
+    <td>Bash Scripting</td>
+    <td><input type="radio" name="skill5" value="1"></td>
+    <td><input type="radio" name="skill5" value="2"></td>
+    <td><input type="radio" name="skill5" value="3"></td>
+    <td><input type="radio" name="skill5" value="4"></td>
+    <td><input type="radio" name="skill5" value="5"></td>
+  </tr>
+  <tr>
+    <td>Command Chaining & Pipes</td>
+    <td><input type="radio" name="skill6" value="1"></td>
+    <td><input type="radio" name="skill6" value="2"></td>
+    <td><input type="radio" name="skill6" value="3"></td>
+    <td><input type="radio" name="skill6" value="4"></td>
+    <td><input type="radio" name="skill6" value="5"></td>
+  </tr>
+</table>
 
 If you scored less than 4 on any skill, consider reviewing that module!
 
@@ -53,6 +113,7 @@ If you scored less than 4 on any skill, consider reviewing that module!
 Keep your skills sharp with these projects:
 
 ### Beginner Projects
+
 1. **Personal Backup System**
    - Backup your documents daily
    - Keep last 7 backups
@@ -69,6 +130,7 @@ Keep your skills sharp with these projects:
    - Alert on thresholds
 
 ### Intermediate Projects
+
 4. **Development Environment Automation**
    - Create project templates
    - Setup script for new projects
@@ -85,6 +147,7 @@ Keep your skills sharp with these projects:
    - Generate summaries
 
 ### Advanced Projects
+
 7. **Deployment Script**
    - Build application
    - Run tests
@@ -108,6 +171,7 @@ Keep your skills sharp with these projects:
 Incorporate CLI into your daily workflow:
 
 ### Morning Routine (5 min)
+
 ```bash
 # Check system status
 df -h                           # Disk space
@@ -116,6 +180,7 @@ uptime                          # System uptime
 ```
 
 ### Development Workflow
+
 ```bash
 # Instead of clicking:
 cd ~/projects/myapp             # Navigate
@@ -125,6 +190,7 @@ find . -name "*.py" | wc -l     # Count files
 ```
 
 ### End of Day (5 min)
+
 ```bash
 # Organize and backup
 ~/scripts/organize-downloads.sh
@@ -135,6 +201,7 @@ git commit -am "End of day commit"
 ## Resources for Continued Learning
 
 ### Online Resources
+
 - **Linux Journey** (linuxjourney.com) - Interactive tutorials
 - **Bash Guide** (mywiki.wooledge.org/BashGuide) - Comprehensive bash guide
 - **Explainshell** (explainshell.com) - Break down complex commands
@@ -142,17 +209,20 @@ git commit -am "End of day commit"
 - **The Art of Command Line** (github.com/jlevy/the-art-of-command-line)
 
 ### Books
+
 - "The Linux Command Line" by William Shotts (free online)
 - "Learning the bash Shell" by Cameron Newham
 - "Bash Cookbook" by Carl Albing and JP Vossen
 - "Unix Power Tools" by Shelley Powers et al.
 
 ### Practice Platforms
+
 - **HackerRank Shell** (hackerrank.com/domains/shell)
 - **Exercism Bash Track** (exercism.org/tracks/bash)
 - **OverTheWire: Bandit** (overthewire.org/wargames/bandit)
 
 ### Communities
+
 - r/commandline (Reddit)
 - r/bash (Reddit)
 - Unix & Linux Stack Exchange
@@ -163,6 +233,7 @@ git commit -am "End of day commit"
 Ready for more? Dive into:
 
 ### System Administration
+
 - `systemd` service management
 - `cron` and `at` for scheduling
 - Log management with `journalctl`
@@ -170,6 +241,7 @@ Ready for more? Dive into:
 - Network configuration
 
 ### DevOps Tools
+
 - Docker container management
 - Kubernetes (kubectl)
 - Terraform for infrastructure
@@ -177,6 +249,7 @@ Ready for more? Dive into:
 - CI/CD tools (Jenkins, GitHub Actions)
 
 ### Programming & Scripting
+
 - Advanced bash patterns
 - Python for system scripting
 - awk and sed mastery
@@ -184,6 +257,7 @@ Ready for more? Dive into:
 - Make and build systems
 
 ### Data Science CLI
+
 - jq for JSON processing
 - csvkit for CSV manipulation
 - xsv for fast CSV operations
@@ -191,6 +265,7 @@ Ready for more? Dive into:
 - Parallel processing with GNU parallel
 
 ### Security
+
 - GPG encryption
 - SSH tunneling and port forwarding
 - Network analysis with tcpdump
@@ -215,6 +290,7 @@ nano ~/cli-reference/my-commands.md
 ## Share Your Knowledge
 
 Help others learn:
+
 - Create a blog post about what you learned
 - Make tutorial videos
 - Contribute to open source projects
@@ -224,6 +300,7 @@ Help others learn:
 ## Your CLI Journey Doesn't End Here
 
 The command line is a lifelong tool. Keep:
+
 - Learning new commands
 - Building scripts
 - Practicing daily
@@ -233,6 +310,7 @@ The command line is a lifelong tool. Keep:
 ## Certification & Portfolio
 
 Consider:
+
 1. **Linux Foundation Certifications**
    - LFCS (Linux Foundation Certified System Administrator)
    - LFCE (Linux Foundation Certified Engineer)
@@ -251,6 +329,7 @@ Consider:
 ## Stay Connected
 
 We'd love to hear about your CLI journey:
+
 - Share your projects
 - Report issues or improvements
 - Suggest new modules
@@ -261,6 +340,7 @@ We'd love to hear about your CLI journey:
 You've completed the CLI course!
 
 The command line is now one of your most powerful tools. Use it to:
+
 - Be more productive
 - Automate routine tasks
 - Work with remote systems
