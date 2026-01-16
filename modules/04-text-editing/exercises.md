@@ -135,4 +135,4 @@ cd ~
 rm -rf text-practice
 ```
 
-[← Tutorial](tutorial.md) | [Next Module →](../05-permissions-processes/tutorial.md)
+[← Tutorial](tutorial.md) | [Solutions →](solutions/solutions.md) | [Next Module →](../05-permissions-processes/tutorial.md)

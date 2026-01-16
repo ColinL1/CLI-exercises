@@ -194,4 +194,4 @@ Create an environment for your actual work/research:
 4. Export it for backup
 5. Test that everything works
 
-[← Tutorial](tutorial.md) | [Next Module →](../09-bash-scripting-basics/tutorial.md)
+[← Tutorial](tutorial.md) | [Solutions →](solutions/solutions.md) | [Next Module →](../09-bash-scripting-basics/tutorial.md)

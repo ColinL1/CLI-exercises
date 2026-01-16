@@ -121,4 +121,4 @@ If you use GitHub:
 
 **Note:** If you don't have a remote server to practice with, the localhost exercises are still valuable for understanding SSH concepts!
 
-[← Tutorial](tutorial.md) | [Next Module →](../07-file-transfer/tutorial.md)
+[← Tutorial](tutorial.md) | [Solutions →](solutions/solutions.md) |[Next Module →](../07-file-transfer/tutorial.md)

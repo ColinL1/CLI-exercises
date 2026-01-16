@@ -118,4 +118,4 @@ grep ERROR "$logfile" | cut -d' ' -f4- | sort | uniq -c | sort -rn
 
 Test it: `./analyze_log.sh server.log`
 
-[← Tutorial](tutorial.md) | [Next Module →](../11-real-world-projects/tutorial.md)
+[← Tutorial](tutorial.md) | [Solutions →](solutions/solutions.md) | [Next Module →](../11-real-world-projects/tutorial.md)

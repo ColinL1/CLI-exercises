@@ -93,4 +93,4 @@ cd ~
 rm -rf file-ops-practice
 ```
 
-[← Tutorial](tutorial.md) | [Solutions →](solutions/solutions.md)
+[← Tutorial](tutorial.md) | [Solutions →](solutions/solutions.md) | [Next Module →](../04-text-editing/tutorial.md)

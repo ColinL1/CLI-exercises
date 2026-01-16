@@ -51,4 +51,4 @@ chmod +x hello.sh
 2. Observe CPU and memory usage
 3. Press `q` to quit
 
-[← Tutorial](tutorial.md) | [Next Module →](../06-ssh-remote-access/tutorial.md)
+[← Tutorial](tutorial.md) | [Solutions →](solutions/solutions.md) | [Next Module →](../06-ssh-remote-access/tutorial.md)

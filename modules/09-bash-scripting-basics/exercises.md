@@ -275,4 +275,4 @@ rm -f greet.sh calculator.sh filecheck.sh create_files.sh backup.sh sysinfo.sh m
 rm -f test_*.txt
 ```
 
-[← Tutorial](tutorial.md) | [Next Module →](../10-advanced-bash/tutorial.md)
+[← Tutorial](tutorial.md) | [Solutions →](solutions/solutions.md) | [Next Module →](../10-advanced-bash/tutorial.md)

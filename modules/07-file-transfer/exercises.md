@@ -131,4 +131,4 @@ wget https://data.example.com/dataset.csv
 scp results.pdf user@server:~/shared/
 ```
 
-[← Tutorial](tutorial.md) | [Next Module →](../08-environment-management/tutorial.md)
+[← Tutorial](tutorial.md) | [Solutions →](solutions/solutions.md) | [Next Module →](../08-environment-management/tutorial.md)

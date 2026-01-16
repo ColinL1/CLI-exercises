@@ -167,4 +167,4 @@ You've completed the CLI Zero to Hero course! You now have:
 
 Keep practicing and building more scripts!
 
-[← Real-World Projects](tutorial.md) | [Back to Main](../../README.md)
+[← Real-World Projects](tutorial.md) | [Solutions →](solutions/solutions.md) | [Back to Main](../../README.md)
