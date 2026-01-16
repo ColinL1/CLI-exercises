@@ -25,6 +25,7 @@ date
 ```
 
 **Answers:**
+
 - Current directory path: Varies by system, typically `/home/username` on Linux or `/Users/username` on macOS
 - Hidden files: Most home directories have `.bashrc`, `.bash_history`, `.profile`, etc.
 - Shell: Usually `/bin/bash` or `/bin/zsh`
@@ -48,6 +49,7 @@ ls -lt
 ```
 
 **Answers:**
+
 - **`ls -R`**: Lists directories recursively (shows contents of subdirectories too)
 - **`ls -t`**: Sorts by modification time, newest first
 - **`ls -lt`**: Long format, sorted by time - combines both options
@@ -83,6 +85,7 @@ clear
 ```
 
 **Key points:**
+
 - `!!` repeats the last command
 - `!<prefix>` runs the most recent command starting with that prefix
 - Arrow keys navigate through history
@@ -113,6 +116,7 @@ ls ~/D<Tab>
 ```
 
 **Key shortcuts practiced:**
+
 - `Tab`: Autocomplete
 - `Ctrl+C`: Cancel
 - `Ctrl+L`: Clear screen
@@ -148,6 +152,7 @@ echo "Hello, $USER! Your home is $HOME"
 ```
 
 **Answers:**
+
 - **Home directory**: Usually `/home/username` (Linux) or `/Users/username` (macOS)
 - **$PATH contents**: Colon-separated list of directories
 - **$PATH purpose**: Tells the shell where to look for executable commands
@@ -182,6 +187,7 @@ echo "I am $USER in $PWD"
 ```
 
 **Alternative for #5:**
+
 ```bash
 # Save to variables first (optional)
 MY_USER=$USER
@@ -194,6 +200,7 @@ echo "I am $MY_USER in $MY_DIR"
 ## Troubleshooting Solutions
 
 ### Command not found
+
 ```bash
 # Wrong: LS (uppercase)
 LS
@@ -204,6 +211,7 @@ ls
 ```
 
 ### Stuck in a program
+
 ```bash
 # If stuck in 'man' or 'less':
 q  # quit
@@ -216,6 +224,7 @@ Ctrl+D  # end input / exit
 ```
 
 ### Terminal frozen
+
 ```bash
 # Frozen (accidentally pressed Ctrl+S):
 Ctrl+Q  # unfreeze
@@ -226,6 +235,7 @@ Ctrl+Q  # unfreeze
 ## Bonus Challenge Solutions
 
 ### 1. Command chaining
+
 ```bash
 date; whoami; pwd
 # Runs all three commands in sequence
@@ -236,6 +246,7 @@ date; whoami; pwd
 ```
 
 ### 2. Counting commands
+
 ```bash
 history | wc -l
 # Example output: 127
@@ -243,6 +254,7 @@ history | wc -l
 ```
 
 ### 3. Custom prompt
+
 ```bash
 echo $PS1
 # Output varies, something like: \u@\h:\w\$
@@ -250,6 +262,7 @@ echo $PS1
 ```
 
 ### 4. Uptime
+
 ```bash
 uptime
 # Output: 10:30:45 up 5 days, 3:45, 2 users, load average: 0.52, 0.58, 0.59
@@ -260,6 +273,7 @@ uptime
 ## Understanding Check
 
 If you could complete most of these exercises, you understand:
+
 - Basic command syntax
 - Getting help (`man`, `--help`)
 - Command history navigation

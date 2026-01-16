@@ -38,9 +38,11 @@ chmod +x hello.sh
 ## Exercise 3: Process Management
 
 1. Run a long process in background:
+
    ```bash
    sleep 60 &
    ```
+
 2. List jobs: `jobs`
 3. Find its process ID: `ps aux | grep sleep`
 4. Kill it: `kill <PID>`

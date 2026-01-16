@@ -5,6 +5,7 @@
 ## Exercise 1: Viewing Files (10 min)
 
 Setup:
+
 ```bash
 cd ~
 mkdir text-practice
@@ -19,6 +20,7 @@ EOF
 ```
 
 Tasks:
+
 1. Display the entire file with `cat`
 2. View the file with `less` (practice navigation, search for a word)
 3. Show first 3 lines with `head`
@@ -29,7 +31,8 @@ Tasks:
 
 1. Create a new file called `mynotes.txt` with nano
 2. Type the following:
-   ```
+
+   ```text
    My Notes
    ========
    
@@ -38,6 +41,7 @@ Tasks:
    - Practice text editing
    - Complete exercises
    ```
+
 3. Save and exit
 4. Reopen the file and add another item to the list
 5. Save and exit again
@@ -46,15 +50,20 @@ Tasks:
 ## Exercise 3: Quick Text Creation (10 min)
 
 1. Create a file using echo:
+
    ```bash
    echo "# My Project" > README.md
    ```
+
 2. Append to it:
+
    ```bash
    echo "" >> README.md
    echo "This is my first CLI project" >> README.md
    ```
+
 3. Create a multi-line file using heredoc:
+
    ```bash
    cat > todo.txt << EOF
    Tasks:
@@ -63,6 +72,7 @@ Tasks:
    3. Move to Module 5
    EOF
    ```
+
 4. View both files with `cat`
 
 ## Exercise 4: Vim Survival (15 min)
@@ -91,6 +101,7 @@ Practice these steps:
 ## Exercise 5: Text Processing (10 min)
 
 Create a data file:
+
 ```bash
 cat > data.txt << EOF
 apple,red,5
@@ -102,6 +113,7 @@ EOF
 ```
 
 Tasks:
+
 1. View the file
 2. Use `grep` to find all red fruits: `grep "red" data.txt`
 3. Use `awk` to print only fruit names: `awk -F',' '{print $1}' data.txt`
@@ -115,6 +127,7 @@ nano greet.sh
 ```
 
 Add:
+
 ```bash
 #!/bin/bash
 echo "Hello, $USER!"
@@ -123,6 +136,7 @@ echo "Today is: $(date +%A)"
 ```
 
 Save, make executable, and run:
+
 ```bash
 chmod +x greet.sh
 ./greet.sh

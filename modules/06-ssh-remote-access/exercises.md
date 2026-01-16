@@ -5,21 +5,25 @@
 ## Exercise 1: SSH Key Generation (10 min)
 
 1. Check if you already have SSH keys:
+
    ```bash
    ls -la ~/.ssh
    ```
 
 2. Generate a new key pair (use a different name to not overwrite existing keys):
+
    ```bash
    ssh-keygen -t ed25519 -f ~/.ssh/training_key -C "training@example.com"
    ```
 
 3. View your public key:
+
    ```bash
    cat ~/.ssh/training_key.pub
    ```
 
 4. Set correct permissions:
+
    ```bash
    chmod 600 ~/.ssh/training_key
    chmod 644 ~/.ssh/training_key.pub
@@ -34,7 +38,8 @@ nano ~/.ssh/config
 ```
 
 Add a localhost entry:
-```
+
+```text
 Host local
     HostName localhost
     User YOUR_USERNAME
@@ -47,6 +52,7 @@ Host github
 ```
 
 Save and set permissions:
+
 ```bash
 chmod 600 ~/.ssh/config
 ```
@@ -77,7 +83,8 @@ nano ~/.ssh/config
 ```
 
 Add:
-```
+
+```text
 Host *
     ServerAliveInterval 60
     ServerAliveCountMax 3
@@ -92,6 +99,7 @@ Host myserver
 ```
 
 ## Understanding SSH Config Options:
+
 - `ServerAliveInterval`: Keeps connection alive
 - `Compression`: Compresses data
 - `ForwardAgent`: Forwards SSH agent (for key forwarding)
@@ -102,6 +110,7 @@ Host myserver
 If you use GitHub:
 
 1. Copy your public key:
+
    ```bash
    cat ~/.ssh/id_ed25519.pub
    ```
@@ -113,6 +122,7 @@ If you use GitHub:
    - Save
 
 3. Test connection:
+
    ```bash
    ssh -T git@github.com
    ```

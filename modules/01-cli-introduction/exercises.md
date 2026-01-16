@@ -20,6 +20,7 @@ Complete each exercise in order. Type the commands yourself - don't copy and pas
 6. Display the current date and time
 
 **Questions to answer:**
+
 - What is your current directory path?
 - Do you have any hidden files? (They start with `.`)
 - What shell are you using?
@@ -37,6 +38,7 @@ Complete each exercise in order. Type the commands yourself - don't copy and pas
 5. Try running `ls -lt` and observe the output
 
 **Questions:**
+
 - What does `ls -R` do?
 - What does `ls -t` do?
 - What happens when you combine them: `ls -lt`?
@@ -48,6 +50,7 @@ Complete each exercise in order. Type the commands yourself - don't copy and pas
 **Objective:** Learn to use command history efficiently.
 
 1. Run these commands in order:
+
    ```bash
    pwd
    ls
@@ -76,6 +79,7 @@ Complete each exercise in order. Type the commands yourself - don't copy and pas
 5. Type a command, use `Ctrl + A` to jump to the beginning, then `Ctrl + K` to delete
 
 **Practice these shortcuts:**
+
 - `Tab` - Autocomplete
 - `Ctrl + C` - Cancel command
 - `Ctrl + L` - Clear screen
@@ -97,6 +101,7 @@ Complete each exercise in order. Type the commands yourself - don't copy and pas
 5. Try `echo "Hello, $USER! Your home is $HOME"`
 
 **Questions:**
+
 - What is your home directory?
 - What does the `$PATH` variable contain?
 - What do you think `$PATH` is used for?
@@ -114,7 +119,8 @@ Complete each exercise in order. Type the commands yourself - don't copy and pas
 5. Display a message: `echo "I am USER in DIRECTORY"` (replace USER and DIRECTORY with actual values using variables)
 
 **Example expected output:**
-```
+
+```text
 I am john in /home/john
 ```
 
@@ -123,15 +129,19 @@ I am john in /home/john
 ## Troubleshooting
 
 ### Problem: Command not found
+
 **Solution:** Check for typos. Remember commands are case-sensitive. Use Tab completion.
 
 ### Problem: Stuck in a program
+
 **Solution:** Press `Ctrl + C` to exit. If that doesn't work, try `Ctrl + D`.
 
 ### Problem: Terminal is frozen
+
 **Solution:** You might have pressed `Ctrl + S` (freezes output). Press `Ctrl + Q` to unfreeze.
 
 ### Problem: Too many errors on screen
+
 **Solution:** Run `clear` or press `Ctrl + L` to clean up.
 
 ---
@@ -164,6 +174,7 @@ If you finished early and want more practice:
 ## Reflection
 
 Take a moment to think about:
+
 - What was easiest to learn?
 - What was most confusing?
 - Which keyboard shortcuts will you use most?

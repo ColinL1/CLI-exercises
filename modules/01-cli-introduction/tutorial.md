@@ -34,13 +34,17 @@ Great question! Here's why:
 Let's clarify some terms you'll encounter:
 
 ### Terminal
+
 The application that provides a window to access the shell. Examples:
+
 - macOS: Terminal.app, iTerm2
 - Linux: GNOME Terminal, Konsole, xterm
 - Windows: Windows Terminal, WSL
 
 ### Shell
+
 The program that interprets your commands. Common shells:
+
 - **bash** (Bourne Again Shell) - Most common, default on most Linux systems
 - **zsh** (Z Shell) - Default on modern macOS
 - **fish** (Friendly Interactive Shell) - User-friendly with good defaults
@@ -49,12 +53,15 @@ The program that interprets your commands. Common shells:
 For this course, we'll use bash/zsh, which are very similar.
 
 ### Console
+
 Historically, the physical terminal connected to a computer. Now often used interchangeably with "terminal."
 
 ### Command
+
 An instruction you give to the shell. For example: `ls`, `cd`, `mkdir`
 
 ### Prompt
+
 The text that appears waiting for your command, usually ending with `$` or `>`:
 ```bash
 user@computer:~$
@@ -259,6 +266,7 @@ Before moving to exercises, make sure you can answer these:
 ## Next Steps
 
 Great job! You now understand:
+
 - What the CLI is and why it's useful
 - Basic terminology (terminal, shell, command)
 - Your first commands (`pwd`, `ls`, `date`, etc.)

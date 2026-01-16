@@ -5,11 +5,13 @@
 ## Exercise 1: Hello Script (10 min)
 
 1. Create a script that greets the user:
+
    ```bash
    nano greet.sh
    ```
 
    Add:
+
    ```bash
    #!/bin/bash
    read -p "What is your name? " name
@@ -18,6 +20,7 @@
    ```
 
 2. Make it executable and run:
+
    ```bash
    chmod +x greet.sh
    ./greet.sh
@@ -263,6 +266,7 @@ done
 ## Testing Your Scripts
 
 For each script:
+
 1. Make it executable
 2. Run it multiple times with different inputs
 3. Try edge cases (empty input, special characters, etc.)
