@@ -1,4 +1,6 @@
-# Command Line: Zero to Hero [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19891911.svg)](https://doi.org/10.5281/zenodo.19891911)
+# Command Line: Zero to Hero 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19891911.svg)](https://doi.org/10.5281/zenodo.19891911)
 
 A comprehensive workshop to take you from CLI beginner to confident command-line user. This hands-on course combines tutorials with practical exercises to build real-world skills. It assumes you have access to a Unix-based CLI environment. This course works on Linux and macOS natively, or on Windows with WSL (Windows Subsystem for Linux).
 
