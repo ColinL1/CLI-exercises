@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+title: "Command Line: Zero to Hero — A Hands-On CLI Learning Course"
+abstract: >
+  A comprehensive, self-paced command-line learning course designed to take
+  complete beginners from zero experience to confident command-line users.
+  The course covers 11 progressive modules (~14 hours of material) spanning
+  navigation, file operations, text editing, permissions, SSH and remote
+  access, file transfer, environment management with Mamba, Bash scripting,
+  advanced text processing, and real-world automation projects. Originally
+  developed for VTK 2026 (Veldwerk & Techniek Klimaat 2026), it is freely
+  available as an open educational resource for anyone interested in CLI
+  skills and basic bioinformatics workflows.
+authors:
+  - family-names: Colin
+    given-names: Luigi
+    orcid: "https://orcid.org/0000-0002-6966-2817"
+    affiliation: "University of Konstanz"
+version: "1.0.0"
+date-released: "2026-04-29"
+license: MIT
+repository-code: "https://github.com/ColinL1/CLI-exercises"
+keywords:
+  - command line
+  - CLI
+  - bash
+  - shell scripting
+  - bioinformatics
+  - education
+  - tutorial
+  - self-paced learning
+  - SSH
+  - environment management
+  - mamba
+  - conda
+type: software
