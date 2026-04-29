@@ -8,9 +8,8 @@ abstract: >
   navigation, file operations, text editing, permissions, SSH and remote
   access, file transfer, environment management with Mamba, Bash scripting,
   advanced text processing, and real-world automation projects. Originally
-  developed for VTK 2026 (Veldwerk & Techniek Klimaat 2026), it is freely
-  available as an open educational resource for anyone interested in CLI
-  skills and basic bioinformatics workflows.
+  developed for VTK 2026, it is freely available as an open resource 
+  for anyone interested in CLI skills and basic bioinformatics workflows.
 authors:
   - family-names: Colin
     given-names: Luigi
