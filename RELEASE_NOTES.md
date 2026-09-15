@@ -1,4 +1,4 @@
-# Release Notes — v1.0.0
+# Release Notes: v1.0.0
 
 ## Command Line: Zero to Hero
 
@@ -27,15 +27,15 @@ Originally developed for **VTK 2026** (Veldwerk & Techniek Klimaat 2026, Univers
 | 11 | Real-World Projects | 1.5 h |
 
 ### Course Materials per Module
-- **Tutorial** (`tutorial.md`) — conceptual explanation with examples
-- **Exercises** (`exercises.md`) — 50+ hands-on practice tasks
-- **Solutions** (`solutions/solutions.md`) — reference answers
+- **Tutorial** (`tutorial.md`): conceptual explanation with examples
+- **Exercises** (`exercises.md`): 50+ hands-on practice tasks
+- **Solutions** (`solutions/solutions.md`): reference answers
 
 ### Additional Resources
-- [GETTING_STARTED.md](GETTING_STARTED.md) — setup guide for Linux, macOS, and Windows (WSL2)
-- [CHEAT_SHEET.md](CHEAT_SHEET.md) — quick reference for all commands taught
-- [COMPLETION.md](COMPLETION.md) — self-assessment checklist and next steps
-- `check_setup.sh` — automated environment verification script
+- [GETTING_STARTED.md](GETTING_STARTED.md): setup guide for Linux, macOS, and Windows (WSL2)
+- [CHEAT_SHEET.md](CHEAT_SHEET.md): quick reference for all commands taught
+- [COMPLETION.md](COMPLETION.md): self-assessment checklist and next steps
+- `check_setup.sh`: automated environment verification script
 
 ---
 

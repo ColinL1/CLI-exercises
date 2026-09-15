@@ -107,8 +107,7 @@ By the end of this course, you will be able to:
    - `tutorial.md` - Concepts and examples
    - `exercises.md` - Hands-on practice
    - `solutions/` - Answer keys (try not to peek!)
-4. Practice files are in the `practice-files/` directory
-5. Take breaks! Learning the CLI can be intense
+4. Take breaks! Learning the CLI can be intense
 
 ### Time Commitment
 - **Foundations**: 6-7 hours

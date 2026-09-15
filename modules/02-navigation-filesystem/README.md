@@ -17,7 +17,7 @@
 
 #### Navigation
 
-[← Module 01: CLI Introduction](modules/01-cli-introduction/tutorial.md) | [Module 03: File Operations →](../03-file-operations/tutorial.md)
+[← Module 01: CLI Introduction](../01-cli-introduction/tutorial.md) | [Module 03: File Operations →](../03-file-operations/tutorial.md)
 
 ---
 

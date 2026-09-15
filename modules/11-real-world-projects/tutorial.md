@@ -53,9 +53,13 @@ for source in "${BACKUP_SOURCES[@]}"; do
 done
 
 # Remove missing sources from array
-for remove in "${missing_sources[@]}"; do
-    BACKUP_SOURCES=("${BACKUP_SOURCES[@]/$remove}")
+valid_sources=()
+for source in "${BACKUP_SOURCES[@]}"; do
+    if [ -d "$source" ]; then
+        valid_sources+=("$source")
+    fi
 done
+BACKUP_SOURCES=("${valid_sources[@]}")
 
 # Create backup
 log "Creating backup: $BACKUP_NAME"
@@ -139,22 +143,25 @@ echo "=== Data Processing Pipeline ==="
 echo "Input: $INPUT_FILE"
 echo ""
 
-# Step 1: Clean data (remove empty lines and duplicates)
+# Step 1: Clean data (remove empty lines and duplicate rows, keep header on top)
 echo "Step 1: Cleaning data..."
 cleaned="$OUTPUT_DIR/cleaned_$TIMESTAMP.csv"
-grep -v '^$' "$INPUT_FILE" | sort | uniq > "$cleaned"
+header=$(head -1 "$INPUT_FILE")
+{
+    echo "$header"
+    tail -n +2 "$INPUT_FILE" | grep -v '^$' | sort | uniq
+} > "$cleaned"
 echo "[OK] Cleaned: $cleaned"
 
 # Step 2: Extract statistics
 echo ""
 echo "Step 2: Generating statistics..."
-total_lines=$(wc -l < "$cleaned")
+total_lines=$(($(wc -l < "$cleaned") - 1))
 echo "Total records: $total_lines"
 
 # Step 3: Split by category (if applicable)
 echo ""
 echo "Step 3: Categorizing data..."
-header=$(head -1 "$cleaned")
 tail -n +2 "$cleaned" | awk -F',' '{print $2}' | sort | uniq | while read category; do
     cat_file="$OUTPUT_DIR/category_${category// /_}.csv"
     echo "$header" > "$cat_file"
@@ -411,7 +418,7 @@ EOF
         
         # Create basic files
         touch src/__init__.py
-        cat > src/main.py << 'EOF'
+        cat > src/main.py << EOF
 #!/usr/bin/env python3
 """Main module for the project."""
 
@@ -449,7 +456,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 EOF
         
-        cat > templates/index.html << 'EOF'
+        cat > templates/index.html << EOF
 <!DOCTYPE html>
 <html>
 <head>
@@ -492,6 +499,21 @@ EOF
         ;;
 esac
 
+# Build setup instructions (environment.yml only exists for python projects)
+if [ "$PROJECT_TYPE" = "python" ]; then
+    SETUP_INSTRUCTIONS="# Create environment
+mamba env create -f environment.yml
+
+# Activate environment
+mamba activate $PROJECT_NAME"
+else
+    SETUP_INSTRUCTIONS="# Create environment
+mamba create -n $PROJECT_NAME python=3.11 -y
+
+# Activate environment
+mamba activate $PROJECT_NAME"
+fi
+
 # Create README
 cat > README.md << EOF
 # $PROJECT_NAME
@@ -501,11 +523,7 @@ Add your project description here.
 
 ## Setup
 \`\`\`bash
-# Create environment
-mamba env create -f environment.yml
-
-# Activate environment
-mamba activate $PROJECT_NAME
+$SETUP_INSTRUCTIONS
 \`\`\`
 
 ## Usage
@@ -579,4 +597,4 @@ You now have complete, real-world scripts for:
 5. Create your own projects!
 
 ---
-[← Advanced Bash](../10-advanced-bash/tutorial.md) | [Course Complete!](../../README.md)
+[← Advanced Bash](../10-advanced-bash/tutorial.md) | [Course Complete!](../../COMPLETION.md)

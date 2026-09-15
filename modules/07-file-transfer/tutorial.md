@@ -234,10 +234,9 @@ rsync -avz ~/important-data/ user@backup-server:~/backups/
 ```bash
 # Using gdown (install first: pip install gdown)
 gdown https://drive.google.com/uc?id=FILE_ID
-
-# Using wget with specific format
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILE_ID' -O filename.zip
 ```
+
+`gdown` handles Google's download-confirmation step for you. A plain `wget`/`curl` on a Google Drive link only works for very small files, since larger files get an HTML virus-scan warning page instead of the file itself.
 
 ### Example 4: Sync Website to Server
 

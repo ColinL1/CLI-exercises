@@ -1,6 +1,6 @@
 # Course Completion & Next Steps
 
-## Congratulations on completing CLI tutorial!
+## Congratulations on completing the CLI tutorial!
 
 You've mastered the command line in just 2 days. Here's what you've accomplished and where to go from here.
 
@@ -38,7 +38,7 @@ You can now:
 
 ## Skills Assessment
 
-Rate yourself (1-5) on these skills:åå
+Rate yourself (1-5) on these skills:
 
 <style>
 table { width: 100%; border-collapse: collapse; }

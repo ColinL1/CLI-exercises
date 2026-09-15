@@ -10,10 +10,9 @@
 ```bash
 $ ls -l file.txt
 -rw-r--r-- 1 user group 1234 Jan 13 10:30 file.txt
- │││││││││
- │└┴┴┴┴┴┴┴┴─ Permissions (9 characters)
- └─ File type
 ```
+
+The first character tells you the file type (`-` = file, `d` = directory, `l` = symbolic link). The next 9 characters are the permissions, grouped into three sets of three: owner, group, and others (see below).
 
 **Permission breakdown:**
 ```

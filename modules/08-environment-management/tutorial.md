@@ -93,8 +93,8 @@ mamba activate myenv
 # Deactivate (return to base)
 mamba deactivate
 
-# Deactivate all
-conda deactivate
+# Run again to fully exit (if you activated nested environments)
+mamba deactivate
 ```
 
 ### Listing Environments
@@ -141,7 +141,7 @@ pip install some-package
 # List all packages in current environment
 mamba list
 
-# Search for specific package
+# Check if a specific package is installed
 mamba list numpy
 
 # Search available package versions

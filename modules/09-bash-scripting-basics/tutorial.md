@@ -123,9 +123,9 @@ echo "Password received"
 
 read -p "Enter a number: " num
 
-if [ $num -gt 10 ]; then
+if [ "$num" -gt 10 ]; then
     echo "Greater than 10"
-elif [ $num -eq 10 ]; then
+elif [ "$num" -eq 10 ]; then
     echo "Equal to 10"
 else
     echo "Less than 10"
@@ -367,14 +367,19 @@ echo "Location: $BACKUP_DIR/$BACKUP_FILE"
 
 for file in *; do
     if [ -f "$file" ]; then
-        extension="${file##*.}"
-        
+        if [[ "$file" == *.* ]]; then
+            extension="${file##*.}"
+        else
+            extension="no_extension"
+        fi
+
         # Create directory for extension
         mkdir -p "$extension"
-        
+
         # Move file
-        mv "$file" "$extension/"
-        echo "Moved $file to $extension/"
+        if mv "$file" "$extension/"; then
+            echo "Moved $file to $extension/"
+        fi
     fi
 done
 ```

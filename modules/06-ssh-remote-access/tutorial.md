@@ -238,26 +238,25 @@ fi
 
 ### Permission Denied (publickey)
 
-```bash
-# Check:
-1. Public key is on server in ~/.ssh/authorized_keys
+Check:
+1. Public key is on server in `~/.ssh/authorized_keys`
 2. Private key is on local machine
 3. Permissions are correct:
+
+   ```bash
    chmod 700 ~/.ssh
    chmod 600 ~/.ssh/id_ed25519
    chmod 644 ~/.ssh/id_ed25519.pub
    chmod 600 ~/.ssh/authorized_keys  # On server
-```
+   ```
 
 ### Connection Timeout
 
-```bash
-# Check:
+Check:
 1. Server is running and accessible
 2. Firewall allows SSH (port 22)
 3. Correct hostname/IP
-4. Network connectivity: ping hostname
-```
+4. Network connectivity: `ping hostname`
 
 ### Host Key Verification Failed
 

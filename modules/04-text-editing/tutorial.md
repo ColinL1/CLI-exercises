@@ -255,7 +255,11 @@ tail -n 100 /var/log/syslog
 
 # Follow log in real-time
 tail -f /var/log/syslog
+```
 
+`grep` searches for lines matching a pattern. `grep PATTERN file` prints every matching line, and `-c` prints a count of matches instead:
+
+```bash
 # Search for errors
 grep ERROR logfile.txt
 

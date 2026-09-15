@@ -271,7 +271,7 @@ du -sh */
 # Find large files
 find . -type f -size +100M -exec ls -lh {} \;
 
-# Process memory usage
+# Process memory usage (Linux only; on macOS use: ps aux -m | head -10)
 ps aux --sort=-%mem | head -10
 
 # Archive and compress

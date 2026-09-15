@@ -423,10 +423,15 @@ ls *.txt               # List .txt files
 
 ```
 Current: /home/user/documents/reports
-         └──┬──┘ └─┬─┘ └────┬────┘ └──┬──┘
-           root  home  user home  current
-                       directory  directory
+```
 
+- `/` - root of the filesystem
+- `home` - top-level directory under root
+- `user` - your home directory (`/home/user`)
+- `documents` - a subdirectory inside your home directory
+- `reports` - the current directory
+
+```
 Absolute path: /home/user/documents/reports/2026/january/report.pdf
                 └────────────────────────────────────────────────┘
                 Complete path from root

@@ -200,7 +200,8 @@ for file in *.txt; do
     mv "$file" "backup_$file"
 done
 
-# Move everything except one file
+# Move everything except one file (requires: shopt -s extglob)
+shopt -s extglob
 mv !(keep.txt) ~/backup/
 ```
 

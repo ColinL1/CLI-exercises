@@ -395,6 +395,8 @@ fi
 
 ### Data Processing Pipeline
 
+`jq` is a command-line JSON processor (not covered in this course, install separately with `mamba install jq` or your system package manager) used here to extract fields from JSON output:
+
 ```bash
 #!/bin/bash
 
