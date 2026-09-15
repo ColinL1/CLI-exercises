@@ -58,10 +58,10 @@ SSH keys are more secure and convenient than passwords!
 
 ```bash
 # Generate a new key pair
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519
 
 # Or RSA (older, but more compatible)
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-keygen -t rsa -b 4096
 
 # You'll be asked:
 # - Where to save (default: ~/.ssh/id_ed25519) - press Enter
